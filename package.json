@@ -1,0 +1,32 @@
+{
+  "name": "shadow-md-bot",
+  "version": "3.1.0",
+  "description": "Shadow MD Bot - WhatsApp Bot with Pair Code Login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "shadow",
+    "md",
+    "baileys",
+    "pair-code"
+  ],
+  "author": "shadowhacc",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.5",
+    "pino": "^8.17.0",
+    "axios": "^1.6.5",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
